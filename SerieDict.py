@@ -1,4 +1,4 @@
-#Exercice1
+#Activité1
 
 mydict={"device":"laptop","constructeur":"acer","ram":"8G","processeur":"intel core i5","stockage":"500G"}
 mydict["stockage"]="750"
@@ -36,19 +36,3 @@ for key,valeur in etudiants.items():
         etudiantNonAdmis[key]=valeur
         print(etudiantNonAdmis)
         
-#Exercice4:
-D=int(input("donner un entier n"))
-L={}
-for i in range(0,D+1):
-    L.update(i=i*i)
-    print(L)
-
-#
-C=input("donner une chaine de caractere")
-L={}
-L.keys()
-for i in C:
-    if i in L:
-        L[]=L[]+1
-    else:
-        L[]=1
