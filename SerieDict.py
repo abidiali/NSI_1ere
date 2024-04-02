@@ -10,7 +10,7 @@ print(mydict)
 mydict["systeme d'exploitation"]= "Windows10"
 print(mydict)
 
-#exercice2
+#Activité 2
 dicT={}
 dicPC={"HP": 11 , "Acer": 7 , "Lenovo": 17 , "Del": 23}
 dicPhone={"Sumsung": 22 , "Iphone": 9 , "Other": 13 }
